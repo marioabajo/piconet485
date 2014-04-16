@@ -3,7 +3,7 @@
 
 #define MODULE_ID 0
 
-piconet485 net(MODULE_ID, 10, 11, 12, 19200);  // ID, RX, TX, , BaudRate
+piconet485 net(MODULE_ID, 10, 11, 12, 19200);  // ID, RX, TX, mode, BaudRate
 
 void setup()  
 {
